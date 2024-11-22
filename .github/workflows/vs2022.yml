@@ -48,7 +48,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       with:
         msbuild-architecture: x64
-        sdk-version: 22621
+
     - name: Set ALPHA
       id: set_alpha
       shell: bash

@@ -116,7 +116,7 @@
     <ProjectName>ext2fs</ProjectName>
     <ProjectGuid>{B01F5886-2B39-4B66-B65C-6427135B6A02}</ProjectGuid>
     <RootNamespace>ext2fs</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

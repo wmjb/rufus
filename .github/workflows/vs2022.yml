@@ -35,7 +35,7 @@ jobs:
 
     strategy:
       matrix:
-        TARGET_PLATFORM: [x64, x86, arm64]
+        TARGET_PLATFORM: [arm]
 
     steps:
     - name: Checkout repository
@@ -48,7 +48,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       with:
         msbuild-architecture: x64
-
+        sdk-version: 22621
     - name: Set ALPHA
       id: set_alpha
       shell: bash
